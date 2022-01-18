@@ -185,6 +185,22 @@ main {
     background-image: url(/img/a4k.png);
 }
 
+.inline-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inline-contacts p {
+    display: inline-flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.inline-contacts svg {
+    margin-right: 0.5rem;
+}
+
 @media only screen and (max-width: 420px ) {
     .container {
         margin-right: 2px;
