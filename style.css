@@ -221,7 +221,7 @@ main {
     }
 
     .mainContent {
-        margin-top: 11rem;
+        margin-top: 15rem;
         display: flex;
         flex-direction: column;
     }
